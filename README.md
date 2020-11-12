@@ -16,13 +16,13 @@ The purpose of this analysis was to learn how to utilize SQL and data modeling t
 
 - From the mentoriship-eligibility table we also found that there were employees eligible to be mentors from every title except manager.
 
-&nbsp;Query ran:
+  - Query ran:
 
-&nbsp;<img src="https://github.com/kimcheese33/pewlett_hackard_analysis/blob/main/images/deliv2query.png"/>
+    <img src="https://github.com/kimcheese33/pewlett_hackard_analysis/blob/main/images/deliv2query.png"/>
 
-&nbsp;Result:
+  - Result:
 
-&nbsp;<img src="https://github.com/kimcheese33/pewlett_hackard_analysis/blob/main/images/deliv2.png"/>
+  <img src="https://github.com/kimcheese33/pewlett_hackard_analysis/blob/main/images/deliv2.png"/>
 
 ## Summary
 
