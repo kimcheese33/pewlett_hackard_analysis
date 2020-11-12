@@ -16,6 +16,13 @@ The purpose of this analysis was to learn how to utilize SQL and data modeling t
 
 - From the mentoriship-eligibility table we also found that there were employees eligible to be mentors from every title except manager.
 
+
+## Summary
+
+In order to address the issue of a large number of employees retiring at the same time, we will need to hire approximately 85,896 roles. Another issue is there are only 1,549 qualified retirement-ready employees available to mentor the next generation of employees. This small number will likely not be enough to prepare younger employees to take over as older employees retire.
+
+Doing some further querying on our mentorship-eligibility table shows that there are no managers eligible to mentor:
+
   - Query ran:
 
     <img src="https://github.com/kimcheese33/pewlett_hackard_analysis/blob/main/images/deliv2query.png"/>
@@ -23,6 +30,9 @@ The purpose of this analysis was to learn how to utilize SQL and data modeling t
   - Result:
 
   <img src="https://github.com/kimcheese33/pewlett_hackard_analysis/blob/main/images/deliv2.png"/>
+  
+We could expand the number of eligible mentors by looking for employees who were born between 1963 and 1965:
 
-## Summary
+<img src="https://github.com/kimcheese33/pewlett_hackard_analysis/blob/main/images/expanded_elig.png"/>
 
+By doing this, we can get 38,401 mentors, which can help alleviate the "silver tsunami".
